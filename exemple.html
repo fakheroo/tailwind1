@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      *{
+        margin:0;
+        padding:0;
+        box-siwing: border-box; 
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      /* Header styling */
+      #header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+      }
+      #header-img {
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+      }
+      /* Navbar styling */
+      #nav-bar {
+        display: flex;
+        justify-content: center;*
+        gap: 15px;
+        background-color: #444;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      #nav-bar a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color: #555;
+        border-radius: 5px;
+      }
+      #nav-bar a:hover {
+        background-color:#666;
+      }
+      /*Flexbox styling for the main sections */
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 20px;
+      }
+      section {
+        margin: 50px 0;
+        padding: 50px;
+        width: 80%;
+        background-color: #f4f4f4;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+      /* Video or iframe styling */
+      #video {
+        width: 80%;
+        height: 315px;
+        margin: 20px 0;
+      }
+      /* Form styling */
+      #form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+        margin-top: 20px;
+      }
+      input[type="email"], input[type="submit"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      input[type="submit"] {
+        background-color: #28a745;
+        color: white;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover{
+        background-color: #218838;
+      }
+      /*footer styling */
+      footer{
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+      }
+      /* Media query */
+      @media (max-width: 768px) {
+        #video{
+          width: 100%;
+        }
+        #nav-bar {
+          flec-direction: column;
+        } 
+        #nav-bar a {
+          margin: 5px 0;       
+           }
+      }
+</style>
+</head> 
+<body>
+  <header id="header">
+    <img id="header-img" src="logo-store-white.svg" alt="Product Logo">
+    <nav id="nv-bar">
+      <a class="nav-link" href="#features">Home</a>
+      <a class="nav-link" href="#pricing">Menu</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      </header>
+      <main>
+        <section id="features">
+          <img src="maillot barca.webp" alt="produit">
+          <h2>Nike - Barcellona Maglia Match Home Ufficiale 2024 / 25s</h2>
+          <p>€ 150,00</p>
+          </section>
+           <section id="pricing">
+            <img src="Survetement-Barca-Veste-2024-2025-Bleu-300x300.jpg" alt="produit">
+          <h2>Tuta Barça 2024</h2>
+          <p>€ 180,00</p>
+          </section>
+           <section id="contact">
+            <img src="shopping (1).webp" alt="produit">
+          <h2>Palla Calcio Brça 2024</h2>
+          <p>€ 60,00</p>
+          </section>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/k1SIK8T01OU?si=rv2oxagrSEhZoh7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <form id ="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="Enter your email" required>
+          <input id="submit" type="submit"
+          value="Subscribe">
+          </form>
+          </main>
+          <footer id="footer">
+            <p>&copy; 2024 Product Landing Page</p>
+          </footer>
+          </body>
+  
+          <i class="fa-brands fa-instagram fa-lg"></i>
+          <i class="fa-brands fa-twitter fa-lg"></i>
+          <i class="fa-brands fa-facebook fa-lg"></i>
+          <i class="fa-brands fa-tiktok fa-lg"></i>
+          </html>
+          
